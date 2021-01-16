@@ -6,7 +6,7 @@ import HeroSection from '../HeroSection.js'
 
 function Home() {
     return(
-        <>
+        <> 
         <HeroSection />
         <Cards />
         <Footer />
