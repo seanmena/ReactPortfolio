@@ -1,47 +1,46 @@
-import React from 'react';
-import './Cards.css';
-import CardItem from './CardItem';
+import React from "react";
+import "./Cards.css";
+import CardItem from "./CardItem";
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className="cards">
       <h1>Check out my projects below!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
             <CardItem
-              src='images/kippersnack 1-SmSmf607901764.jpg'
-              text='Check out all of my project code on my github here'
-              label='Github'
-              path='/products'
-
+              src="images/store.png"
+              text="Ecommerce website built with MERN and redux"
+              label="Kipper"
+              path="https://github.com/seanmena/Kipper"
             />
+
             <CardItem
-              src='images/LandingPage.png'
-              text='Learn more about this project here!'
-              label='EMG'
-              to = "//github.com/seanmena/Kipper/blob/main/src/App.js"
-              path='/products'
+              src="images/colorize.png"
+              text="App that finds color pallete from image"
+              label="Colorize"
+              path="https://github.com/maxonemillion/Colorize"
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className="cards__items">
             <CardItem
-              src='images/colorize.png'
-              text='Learn more about this project here!'
-              label='Colorize'
-              path='/products'
+              src="images/pro3.png"
+              text="App that tracks your workouts"
+              label="Workout-tracker"
+              path="https://github.com/seanmena/fitnes-tracker"
             />
             <CardItem
-              src='images/pro3.png'
-              text='Learn more about this project here!'
-              label='Kipper'
-              path='/products'
+              src="images/LandingPage.png"
+              text="App that generates media based off emotion"
+              label="EMG"
+              path="https://github.com/MizTangerine/Emotional_Media_Generator"
             />
             <CardItem
-              src='images/Screen Shot 2021-01-11 at 7.21.51 PM (2).png'
-              text='Learn more about this project here!'
-              label='Emp-Tracker'
-              path='/products'
+              src="images/Screen Shot 2021-01-11 at 7.21.51 PM (2).png"
+              text="App to organize employees and their roles"
+              label="Emp-Tracker"
+              path="https://github.com/seanmena/EmployeeManager"
             />
           </ul>
         </div>

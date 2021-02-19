@@ -1,24 +1,24 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { Button, ButtonTwo } from './Button';
 import './HeroSection.css';
 
 
 function HeroSection() {
     return (
         <div className="hero-container">
-            <video src="/videos/Wonderful Landscape of Porto Santo Island.mp4" autoPlay loop muted/>
+            <video class ="vid" src="/videos/Wonderful Landscape of Porto Santo Island.mp4" autoPlay loop muted/>
             <h1>Sean Mena</h1>
-            <p>Welcome to my portfolio</p>       
+            <p class="wlc-port">FULL-STACK WEB DEVLOPER</p>       
             <div className = "hero-btns">
-                <Button className="btns" buttonStyle="btn--outline"
+                <Button  className="btns" buttonStyle="btn--outline"
                 buttonSize="btn--large">
-                    PROJECTS
+                    GITHUB
                 </Button>
-                <Button className="btns" buttonStyle="btn--primary"
+                <ButtonTwo className="btns" buttonStyle="btn--primary"
                 buttonSize="btn--large">
-                    CONTACT
-                </Button>
+                    LINKEDIN
+                </ButtonTwo>
             </div>
         </div>
     )

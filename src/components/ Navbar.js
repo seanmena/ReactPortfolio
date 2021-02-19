@@ -1,11 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
+// eslint-disable-next-line
 import { Button } from './Button';
 import './Navbar.css'
  
 function Navbar() {
     // reverses state of icon
     const [click, setClick] = useState(false);
+    // eslint-disable-next-line
     const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
@@ -50,30 +52,11 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Products
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
+                About 
               </Link>
             </li>
           </ul>
-                {button && <Button buttonStyle="btn--outline">ABOUT ME</Button>}
+                {/* {button && <Button buttonStyle="btn--outline">ABOUT ME</Button>} */}
             </div>
         </nav>
       </>

@@ -17,38 +17,38 @@ function Footer() {
         </div>
       </section>
 
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               Sean Mena
             </Link>
           </div>
-          <small class='website-rights'>Sean Meana © 2020</small>
-          <div class='social-icons'>
+          <small className='website-rights'>Sean Meana © 2020</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link instagram'
-              to='/'
+              className='social-icon-link instagram'
+              to= {{pathname: 'https://www.instagram.com/kippersnack_/'}}
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
-              to='/'
+              className='social-icon-link youtube'
+              to={{pathname: 'https://www.youtube.com/channel/UCs6DOldIYUXqNuOUf_Eq0qw/featured' }}
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link twitter'
-              to='/'
+              className='social-icon-link twitter'
+              to= {{pathname: 'https://www.linkedin.com/in/sean-mena-2910651aa/' }}
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i className='fab fa-linkedin' />
             </Link>
           </div>
         </div>
