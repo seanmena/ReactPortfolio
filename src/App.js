@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import About from "./components/pages/About";
 
 function App() {
+  console.log("test");
   return (
     <>
     <Router>
