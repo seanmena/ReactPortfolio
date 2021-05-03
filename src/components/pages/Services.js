@@ -4,8 +4,8 @@ import './Services.css'
 
 export default function Services() {
   return (
-      <div>
-        <img src="../images/RESUME.jpg" alt="resume" ></img>
+      <div className="res-img">
+        <img src="../images/Resume.jpg" alt="resume" ></img>
     </div>
 
     )
